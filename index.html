@@ -8,17 +8,17 @@
 <body>
     <h1>¡Hola! Soy un partner de Napsix</h1>
     <p>Este contenido simula el web de un patner para embeber el simulador</p>
-    <script>
-        (function() {
-            const partnerID = '21ba3ede-9c06-466e-bf11-8d784b793338';
-            const urlOrigin = window.location.href;
-            const iframe = document.createElement('iframe');
-            iframe.src = `https://one.napsix.com/loan_simulator/embed/prendarios?partner_widget_id=${partnerID}&url_origin=${encodeURIComponent(urlOrigin)}`;
-            iframe.style.width = '100%';
-            iframe.style.height = '900px';
-            iframe.style.border = 'none';
-            document.body.appendChild(iframe);
-        })();
-    </script>
+   <script>
+            (function() {
+                const partnerID = 'df42ac49-aa3a-4de3-be89-9a77490cae86';
+                const urlOrigin = window.location.href;
+                const iframe = document.createElement('iframe');
+                iframe.src = `http://napsix.napsix.local/loan_simulator/embed/prendarios?partner_widget_id=${partnerID}&url_origin=${encodeURIComponent(urlOrigin)}`;
+                iframe.style.width = '100%';
+                iframe.style.height = '900px';
+                iframe.style.border = 'none';
+                document.body.appendChild(iframe);
+            })();
+        </script>
 </body>
 </html>
